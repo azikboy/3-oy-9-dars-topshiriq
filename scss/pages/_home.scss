@@ -1,5 +1,6 @@
 main {
     flex-grow: 1;
+    background-color: $white-color;
 }
 
 .cards__container {
@@ -29,12 +30,12 @@ main {
     margin-top: 1.5rem;
     
 }
-.shop-btn__inner-wrapper {
-}
-.shop-btn__text {
-}
-.shop-btn__icon {
-}
+// .shop-btn__inner-wrapper {
+// }
+// .shop-btn__text {
+// }
+// .shop-btn__icon {
+// }
 @media screen and (max-width:950px) {
     .card {
         padding: 2rem 4rem;
@@ -150,8 +151,8 @@ main {
 @media screen and(max-width: 880px) {
     .center__content{
         background-image: url('../../images/main-hero-z-speaker.png');
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-size: contain;
+        // background-repeat: no-repeat;
     }
 }
 .black-btn {
