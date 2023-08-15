@@ -137,35 +137,43 @@ main {
 .center{
     
     background-image: url('../../images/main-hero-z-speaker.png');
-    background-size: cover;
+    // background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 320px;
+
 }
 .center__content {
     // background-repeat: no-repeat;
     
-    display: flex;
-    // padding-top: 10.1rem;
-    // padding-bottom: 10.1rem;
-    // padding-left: 9.5rem;
+    // display: flex;
+    padding-top: 10.1rem;
+    padding-bottom: 10.1rem;
+    padding-left: 9.5rem;
     
 }
-@media screen and(max-width: 880px) {
-    .center__content{
-        background-image: url('../../images/main-hero-z-speaker.png');
-        background-size: contain;
-        // background-repeat: no-repeat;
-    }
-}
+// @media screen and(max-width: 950px) {
+//     // .center__content{
+         
+//     //     // background-image: url('../../images/main-hero-z-speaker.png');
+//     //     // background-size: contain;
+//     //     // background-repeat: no-repeat;
+//     //     // background-color: $silver-color;
+        
+//     // }
+// }
 .black-btn {
     margin-top: 3.2rem;
 }
 .bottom {
-   img{
-       width: 100%;
-    //    max-width: 540px;
-
-   }
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   
+    // display: flex;
     gap: 3rem;
+    img{
+        width: 100%;
+    }
 }
 .bottom__content {
     width: 100%;
@@ -175,17 +183,20 @@ main {
     align-items: center;
     justify-content: center;
     
-    // padding: 7.5rem 18rem 7.5rem 9.5rem;
+    padding: 7.5rem 18rem 7.5rem 9.5rem;
 
     background-color: $silver-color;
 }
 
 .description__container {
     display: flex;
-    justify-content: space-between;
+    gap: 12.5rem;
+    // flex-wrap: wrap;
+    // justify-content: space-between;
     align-items: center;
     
     img{
+        max-width: 400;
         width: 100%;
     }
 }
@@ -197,5 +208,11 @@ main {
         span{
             color: $brown-light-color;
         }
+    }
+}
+@media screen and (max-width:670px) {
+    .description__container{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
