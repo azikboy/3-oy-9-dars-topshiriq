@@ -319,6 +319,14 @@ template {
   outline-offset: 0.5rem;
 }
 
+#active {
+  color: #D87D4A;
+}
+
+a:hover {
+  color: red !important;
+}
+
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
