@@ -430,6 +430,12 @@ h6 {
   letter-spacing: 2px;
 }
 
+.subtitle {
+  font-size: 1.3rem;
+  line-height: 0.52;
+  letter-spacing: 2.5px;
+}
+
 body {
   font-size: 1.5rem;
   font-weight: 500;
@@ -708,10 +714,10 @@ nav {
 }
 
 .footer__nav-icon {
-  margin-right: auto;
+  margin-right: 20rem;
   display: flex;
   gap: 1.6rem;
-  margin-bottom: 1rem;
+  margin-bottom: -1rem;
 }
 
 .copyright {
@@ -755,6 +761,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 16rem;
 }
 
 .card {
@@ -837,7 +844,6 @@ main {
 .white-btn:hover {
   color: #000000;
   background-color: #FFFFFF;
-  transform: rotate(15deg);
 }
 
 @media screen and (max-width: 760px) {
@@ -865,7 +871,7 @@ main {
   }
 }
 .center {
-  background-image: url("../../images/main-hero-z-speaker.png");
+  background-image: url("../../images/png/main-img-zx7-speakers.png");
   background-repeat: no-repeat;
   background-size: 100% 320px;
 }
@@ -888,6 +894,9 @@ main {
 }
 .bottom img {
   width: 100%;
+  height: 300px;
+  max-width: 480px;
+  border-radius: 8px;
 }
 
 .bottom__content {
@@ -909,6 +918,7 @@ main {
 .description__container img {
   max-width: 400;
   width: 100%;
+  border-radius: 8px;
 }
 
 .description__content {
@@ -927,4 +937,79 @@ main {
     display: flex;
     flex-wrap: wrap;
   }
+}
+.header__title {
+  color: #FFFFFF;
+  margin-top: 9rem;
+  padding-bottom: 9rem;
+}
+
+.hero-container {
+  margin-top: 16rem;
+}
+
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12.5rem;
+  text-align: center;
+}
+.hero-content .hero-left {
+  width: 100%;
+  max-width: 445px;
+  margin-bottom: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.hero-content img {
+  width: 100%;
+  background-color: #F1F1F1;
+  padding: 6.5rem 9.5rem 10.8rem 9.4rem;
+  margin-bottom: 16rem;
+}
+
+.image {
+  width: 100%;
+  max-width: 540px;
+}
+
+.overline {
+  color: #D87D4A;
+  margin-bottom: 1.6rem;
+  letter-spacing: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.header-content {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 12.5rem;
+  text-align: center;
+}
+.header-content img {
+  width: 100%;
+  background-color: #F1F1F1;
+  padding: 6.5rem 9.5rem 10.8rem 9.4rem;
+  margin-bottom: 16rem;
+}
+
+.hero-left {
+  width: 100%;
+  max-width: 445px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.speaker__container {
+  margin-top: 16rem;
 }/*# sourceMappingURL=style.css.map */

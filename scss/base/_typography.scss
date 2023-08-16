@@ -58,6 +58,10 @@ h1{
 
  .overline{
   @include heading(1.4rem, 2px, 1.03)
+   
+ }
+ .subtitle{
+  @include heading(1.3rem, 2.5px, 0.52)
 
  }
  body {
